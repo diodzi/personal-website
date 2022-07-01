@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +16,7 @@
             <!-- Pages -->
             <div class="hidden md:flex space-x-20">
                 <a href="#education" class="hover:text-cream text-white hover:underline">Education</a>
-                <a href="#" class="hover:text-cream text-white hover:underline">Tools</a>
+                <a href="#tools" class="hover:text-cream text-white hover:underline">Tools</a>
                 <a href="#" class="hover:text-cream text-white hover:underline">Experience</a>
             </div>
             <!-- Contact Button -->
@@ -45,7 +45,7 @@
     </div>
 
     <!-- education section -->
-    <section id="education" class="bg-gradient-to-r from-cream to-creamDark selection:bg-black selection:text-cream">
+    <section id="education" class="bg-cream pb-6 selection:bg-black selection:text-cream">
         <!-- education header -->
         <span class="text-5xl font-bold italic flex justify-center pt-6 pb-4 mt-6 lg:text-7xl">Education</span>
 
@@ -70,10 +70,61 @@
         </div>
 
         <!-- stats section -->
-        <div class="flex flex-col space-y-2 text-center mt-6 pb-6 lg:flex-row lg:justify-center lg:space-x-12 lg:space-y-0">
+        <div class="flex justify-center mx-6 flex-col space-y-2 text-center mt-6 rounded-full text-cream py-2 bg-black 
+        lg:flex-row lg:space-x-12 lg:space-y-0 lg:mx-56">
             <span class="lg:text-3xl"><b>SAT:</b> 1570 / 1600</span>
             <span class="lg:text-3xl"><b>HOPE Calculated GPA:</b> 3.737 / 4.000</span>
         </div>
-    </div>
+    </section>
+
+    <!-- tools section -->
+    <section id="tools" class="pb-12 bg-black text-white justify-center">
+        <!-- tools header -->
+        <span class="text-5xl font-bold italic flex justify-center pt-6 pb-4 lg:text-7xl">Tools</span>
+
+        <!-- separates into three rows -->
+        <div class="flex flex-col items-center space-y-6">
+            <!-- row one -->
+            <div class="flex flex-row items-end space-x-12">
+                <!-- vs code section -->
+                <div class="flex flex-col items-center space-y-3">
+                    <img src="./img/vsclogo.png" alt="" class="max-w-[5rem]">
+                    <span class="font-bold">Microsoft VS Code</span>
+                </div>
+                <!-- final cut pro section -->
+                <div class="flex flex-col items-center space-y-3">
+                    <img src="./img/fcplogo.png" alt="" class="max-w-[5rem]">
+                    <span class="font-bold">Apple Final Cut Pro</span>
+                </div>
+            </div>
+            <!-- row two -->
+            <div class="flex flex-row items-end space-x-9">
+                <!-- terminal section -->
+                <div class="flex flex-col items-center space-y-3">
+                    <img src="./img/terminallogo.png" alt="" class="max-w-[5rem]">
+                    <span class="font-bold">Bash & Zsh Terminal</span>
+                </div>
+                <!-- premiere pro section -->
+                <div class="flex flex-col items-center space-y-3">
+                    <img src="./img/prlogo.png" alt="" class="max-w-[5rem]">
+                    <span class="font-bold">Adobe Premiere Pro</span>
+                </div>
+            </div>
+            <!-- row three -->
+            <div class="flex flex-row items-end space-x-16">
+                <!-- ms office section -->
+                <div class="flex flex-col items-center space-y-3">
+                    <img src="./img/msofficelogo.png" alt="" class="max-w-[5rem]">
+                    <span class="font-bold">Microsoft Office</span>
+                </div>
+                <!-- photoshop section -->
+                <div class="flex flex-col items-center space-y-3">
+                    <img src="./img/pslogo.png" alt="" class="max-w-[5rem]">
+                    <span class="font-bold">Adobe Photoshop</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 </body>
 </html>
