@@ -70,7 +70,7 @@
         </div>
 
         <!-- stats section -->
-        <div class="flex justify-center mx-6 flex-col space-y-2 text-center mt-6 rounded-full text-cream py-2 bg-black 
+        <div class="flex justify-center mx-6 flex-col space-y-2 text-center mt-6 rounded-2xl text-cream py-2 bg-black 
         lg:flex-row lg:space-x-12 lg:space-y-0 lg:mx-56">
             <span class="lg:text-3xl"><b>SAT:</b> 1570 / 1600</span>
             <span class="lg:text-3xl"><b>HOPE Calculated GPA:</b> 3.737 / 4.000</span>
@@ -78,53 +78,104 @@
     </section>
 
     <!-- tools section -->
-    <section id="tools" class="pb-12 bg-black text-white justify-center">
-        <!-- tools header -->
-        <span class="text-5xl font-bold italic flex justify-center pt-6 pb-4 lg:text-7xl">Tools</span>
+    <section id="tools" class="pb-12 bg-black text-white justify-center lg:flex lg:flex-row lg:space-x-48">
 
-        <!-- separates into three rows -->
-        <div class="flex flex-col items-center space-y-6">
-            <!-- row one -->
-            <div class="flex flex-row items-end space-x-12">
-                <!-- vs code section -->
-                <div class="flex flex-col items-center space-y-3">
-                    <img src="./img/vsclogo.png" alt="" class="max-w-[5rem]">
-                    <span class="font-bold">Microsoft VS Code</span>
+        <div class="flex flex-col">
+            <!-- tools header -->
+            <span class="text-5xl font-bold italic flex justify-center pt-6 pb-4 lg:text-7xl">Tools</span>
+
+            <!-- separates into three rows -->
+            <div class="flex flex-col items-center space-y-6">
+                <!-- row one -->
+                <div class="flex flex-row items-end space-x-12">
+                    <!-- vs code section -->
+                    <div class="flex flex-col items-center space-y-3">
+                        <img src="./img/vsclogo.png" alt="" class="max-w-[5rem]">
+                        <span class="font-bold">Microsoft VS Code</span>
+                    </div>
+                    <!-- final cut pro section -->
+                    <div class="flex flex-col items-center space-y-3">
+                        <img src="./img/fcplogo.png" alt="" class="max-w-[5rem]">
+                        <span class="font-bold">Apple Final Cut Pro</span>
+                    </div>
                 </div>
-                <!-- final cut pro section -->
-                <div class="flex flex-col items-center space-y-3">
-                    <img src="./img/fcplogo.png" alt="" class="max-w-[5rem]">
-                    <span class="font-bold">Apple Final Cut Pro</span>
+                <!-- row two -->
+                <div class="flex flex-row items-end space-x-9">
+                    <!-- terminal section -->
+                    <div class="flex flex-col items-center space-y-3">
+                        <img src="./img/terminallogo.png" alt="" class="max-w-[5rem]">
+                        <span class="font-bold">Bash & Zsh Terminal</span>
+                    </div>
+                    <!-- premiere pro section -->
+                    <div class="flex flex-col items-center space-y-3">
+                        <img src="./img/prlogo.png" alt="" class="max-w-[5rem]">
+                        <span class="font-bold">Adobe Premiere Pro</span>
+                    </div>
+                </div>
+                <!-- row three -->
+                <div class="flex flex-row items-end space-x-16">
+                    <!-- ms office section -->
+                    <div class="flex flex-col items-center space-y-3">
+                        <img src="./img/msofficelogo.png" alt="" class="max-w-[5rem]">
+                        <span class="font-bold">Microsoft Office</span>
+                    </div>
+                    <!-- photoshop section -->
+                    <div class="flex flex-col items-center space-y-3">
+                        <img src="./img/pslogo.png" alt="" class="max-w-[5rem]">
+                        <span class="font-bold">Adobe Photoshop</span>
+                    </div>
                 </div>
             </div>
-            <!-- row two -->
-            <div class="flex flex-row items-end space-x-9">
-                <!-- terminal section -->
-                <div class="flex flex-col items-center space-y-3">
-                    <img src="./img/terminallogo.png" alt="" class="max-w-[5rem]">
-                    <span class="font-bold">Bash & Zsh Terminal</span>
+        </div>
+
+        <div class="flex flex-col">
+            <!-- technologies header -->
+            <span class="text-5xl font-bold italic flex justify-center pt-12 pb-4 lg:text-7xl lg:pt-6">Technologies</span>
+
+            <!-- technologies section -->
+            <div class="flex flex-col items-center space-y-6">
+                <!-- row one (or four on mobile) -->
+                <div class="flex flex-row items-end space-x-28">
+                    <!-- javascript section -->
+                    <div class="flex flex-col items-center space-y-3">
+                        <img src="./img/jslogo.png" alt="" class="max-w-[5rem]">
+                        <span class="font-bold">JavaScript</span>
+                    </div>
+                    <!-- python section -->
+                    <div class="flex flex-col items-center space-y-3">
+                        <img src="./img/pythonlogo.png" alt="" class="max-w-[5rem]">
+                        <span class="font-bold">Python</span>
+                    </div>
                 </div>
-                <!-- premiere pro section -->
-                <div class="flex flex-col items-center space-y-3">
-                    <img src="./img/prlogo.png" alt="" class="max-w-[5rem]">
-                    <span class="font-bold">Adobe Premiere Pro</span>
+                <!-- row two (or five on mobile) -->
+                <div class="flex flex-row items-end space-x-28">
+                    <!-- html section -->
+                    <div class="flex flex-col items-center space-y-3">
+                        <img src="./img/htmllogo.png" alt="" class="max-w-[5rem]">
+                        <span class="font-bold">HTML</span>
+                    </div>
+                    <!-- java section -->
+                    <div class="flex flex-col items-center space-y-3">
+                        <img src="./img/javalogo.png" alt="" class="max-w-[5rem]">
+                        <span class="font-bold">Java</span>
+                    </div>
                 </div>
-            </div>
-            <!-- row three -->
-            <div class="flex flex-row items-end space-x-16">
-                <!-- ms office section -->
-                <div class="flex flex-col items-center space-y-3">
-                    <img src="./img/msofficelogo.png" alt="" class="max-w-[5rem]">
-                    <span class="font-bold">Microsoft Office</span>
-                </div>
-                <!-- photoshop section -->
-                <div class="flex flex-col items-center space-y-3">
-                    <img src="./img/pslogo.png" alt="" class="max-w-[5rem]">
-                    <span class="font-bold">Adobe Photoshop</span>
+                <!-- row three (or six on mobile) -->
+                <div class="flex flex-row items-end space-x-28">
+                    <!-- css section -->
+                    <div class="flex flex-col items-center space-y-3">
+                        <img src="./img/csslogo.png" alt="" class="max-w-[5rem]">
+                        <span class="font-bold">CSS</span>
+                    </div>
+                    <!-- tailwind section -->
+                    <div class="flex flex-col items-center space-y-3">
+                        <img src="./img/tailwindlogo.png" alt="" class="max-w-[5rem]">
+                        <span class="font-bold">Tailwind</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
 </body>
 </html>
