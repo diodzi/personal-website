@@ -14,7 +14,7 @@
         <div class="flex items-center justify-between bg-black rounded-full">
             <!-- Home Button -->
             <a href="#home">
-                <img src="./img/party pic.png" alt="" class="rounded-full my-1 ml-1" style="width: 75px; height: 75px;">
+                <img src="./img/grad.png" alt="" class="rounded-full my-1 ml-1" style="width: 75px; height: 75px;">
             </a>
             <!-- Pages -->
             <div class="hidden md:flex space-x-20">
@@ -28,13 +28,15 @@
     </nav>
 
     <!-- pog section -->
-    <section class="flex flex-col container mx-auto md:flex-row md:justify-center items-center">
+    <section class="flex flex-col container mx-auto md:flex-row md:justify-center items-center pb-16">
         <!-- main image -->
         <img src="./img/skyview.png" alt="" class="md:rounded-3xl md:w-1/2">
 
         <!-- about text -->
         <div class="mt-6 md:my-auto md:ml-5">
-            <div class="text-5xl font-bold italic md:text-7xl">Hi, I'm Dio :)</div>
+            <div class="text-5xl font-bold md:text-7xl mb-4">
+                Hi, I'm Dio :)
+            </div>
             <p class="text-xl mt-6 md:text-3xl md:mt-0">
                 I'm a computer science student <br>
                 at Georgia State University!
@@ -49,9 +51,9 @@
     </section>
 
     <!-- education section -->
-    <section class="bg-cream pb-6 selection:bg-black selection:text-cream">
+    <section class="bg-cream pt-12 pb-6 selection:bg-black selection:text-cream">
         <!-- education header -->
-        <span class="text-5xl font-bold italic flex justify-center pt-6 pb-4 mt-6 underline lg:text-7xl">Education</span>
+        <span class="text-5xl font-bold flex justify-center pb-4 mt-6 lg:text-7xl">Education</span>
 
         <div class="flex flex-col lg:flex-row lg:justify-center space-x-12">
             <!-- gsu section -->
@@ -83,11 +85,11 @@
     </section>
 
     <!-- tools section -->
-    <section class="pb-12 pt-20 bg-gradient-to-t from-favourite to-cream justify-center lg:flex lg:flex-row lg:space-x-48">
+    <section class="pb-24 pt-12 bg-gradient-to-t from-creamDark to-cream justify-center lg:flex lg:flex-row lg:space-x-48">
 
         <div class="flex flex-col">
             <!-- tools header -->
-            <span class="text-5xl font-bold italic flex justify-center pt-6 pb-8 underline lg:text-7xl">Tools</span>
+            <span class="text-5xl font-bold flex justify-center pt-6 pb-12 lg:text-7xl">Tools</span>
 
             <!-- separates into three rows -->
             <div class="flex flex-col items-center space-y-6">
@@ -135,7 +137,7 @@
 
         <div class="flex flex-col">
             <!-- technologies header -->
-            <span class="text-5xl font-bold italic flex justify-center pt-12 pb-8 underline lg:text-7xl lg:pt-6">Technologies</span>
+            <span class="text-5xl font-bold flex justify-center pt-12 pb-12 lg:text-7xl lg:pt-6">Technologies</span>
 
             <!-- technologies section -->
             <div class="flex flex-col items-center space-y-6">
@@ -184,69 +186,17 @@
 
     <!-- experience section -->
     <span id="experience"></span>
-    <section class="bg-favourite pt-16 pb-8">
+    <section class="pt-16 pb-12">
         <!-- experience header -->
-        <span class="text-5xl font-bold italic flex justify-center pt-6 pb-8 underline lg:text-7xl">Experience</span>
+        <span class="text-5xl font-bold flex justify-center pt-6 pb-12 lg:text-7xl">Experience</span>
 
         <!-- splits into two columns on non-mobile -->
         <div class="flex flex-col justify-center space-y-6 lg:flex-row lg:space-y-0">
-            <div class="flex flex-col items-center space-y-6">
-                <!-- hansel section -->
-                <div class="flex flex-col mx-10 bg-white p-6 rounded-3xl space-y-4 max-w-xl lg:pb-24">
-                    <!-- hansel title -->
-                    <div class="flex flex-row py-2 bg-black text-white rounded-3xl justify-center items-center space-x-4">
-                        <img src="./img/hglogo.png" alt="" class="max-w-[3rem]">
-                        <div class="flex flex-col">
-                            <b class="">Hansel & Gretel Bakery Cafe</b>
-                            Service Worker <br>
-                            January 2022 - May 2022
-                        </div>
-                    </div>
-                    <!-- hansel description -->
-                    <ul class="list-disc">
-                        <li>
-                            Handled and accommodated customer questions regarding store policies.
-                        </li>
-                        <li>
-                            Accommodated requests for custom services.
-                        </li>
-                        <li>
-                            Maintained store facilities to ensure cleanliness.
-                        </li>
-                    </ul>
-                </div>
-    
-                <!-- ohacksio section -->
-                <div class="flex flex-col mx-10 bg-white p-6 rounded-3xl space-y-4 max-w-xl lg:pb-[4.6rem]">
-                    <!-- ohacksio title -->
-                    <div class="flex flex-row py-2 bg-black text-white rounded-3xl justify-center items-center space-x-4">
-                        <img src="./img/ohackslogo.png" alt="" class="max-w-[3rem]">
-                        <div class="flex flex-col">
-                            <b class="">OHacksIO Hackathon</b>
-                            Second Place [Your Tempo]<br>
-                            September 2021
-                        </div>
-                    </div>
-                    <!-- hansel description -->
-                    <ul class="list-disc">
-                        <li>
-                            Developed and designed the website that users interface with.
-                        </li>
-                        <li>
-                            Led creative decisions within our team.
-                        </li>
-                        <li>
-                            Simplified the complexities of teammate backend code into simple and interactive experiences for the user.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="flex flex-col items-center space-y-6">
-                <!-- ikmia section -->
-                <div class="flex flex-col mx-10 bg-white p-6 rounded-3xl space-y-4 max-w-xl">
+            <div class="flex flex-col items-center space-y-12">
+                 <!-- ikmia section -->
+                 <div class="flex flex-col mx-10 bg-gray-100 p-6 rounded-3xl space-y-4 max-w-xl">
                     <!-- ikmia title -->
-                    <div class="flex flex-row py-2 bg-black text-white rounded-3xl justify-center items-center space-x-2">
+                    <div class="flex flex-row py-2 rounded-3xl justify-center items-center space-x-2">
                         <img src="./img/ikmialogo.jpg" alt="" class="max-w-[3rem] rounded-full">
                         <div class="flex flex-col">
                             <b class="">IKMIA Youth</b>
@@ -255,23 +205,59 @@
                         </div>
                     </div>
                     <!-- ikmia description -->
-                    <ul class="list-disc">
-                        <li>
-                            Serve on the executive board for the youth division of IKMIA, a cultural and religious organization that unites Indonesian Muslims in the Atlanta area.
-                        </li>
-                        <li>
-                            Handle financial planning and execution of youth centered activities at IKMIA events.
-                        </li>
-                        <li>
-                            Give input on what would be beneficial to both monetarily and to promote better experiences.
-                        </li>
-                    </ul>
+                    <div class="text-center">
+                        Serve on the executive board for the youth division of IKMIA, a cultural and religious organization that unites Indonesian Muslims in the Atlanta area.
+                        Handle financial planning and execution of youth centered activities at IKMIA events.
+                        Provide input on what would be beneficial both monetarily and to promote better experiences.
+                    </div>
+                </div>
+    
+                <!-- ohacksio section -->
+                <div class="flex flex-col mx-10 bg-gray-100 p-6 rounded-3xl space-y-4 max-w-xl lg:pb-[4.6rem]">
+                    <!-- ohacksio title -->
+                    <div class="flex flex-row py-2 rounded-3xl justify-center items-center space-x-4">
+                        <img src="./img/ohackslogo.png" alt="" class="max-w-[3rem]">
+                        <div class="flex flex-col">
+                            <b class="">OHacksIO Hackathon</b>
+                            <p>
+                                Second Place, <span class="italic">Your Tempo</span><br>
+                            </p>
+                            September 2021
+                        </div>
+                    </div>
+                    <!-- ohacksio description -->
+                    <div class="text-center">
+                        Developed and designed the website that users interface with.
+                        Led creative decisions within our team.
+                        Simplified the complexities of teammate backend code into simple and interactive experiences for the user.
+                    </div>      
+                </div>
+            </div>
+            
+            <div class="flex flex-col items-center space-y-12">
+                <!-- hansel section -->
+                <div class="flex flex-col mx-10 bg-gray-100 p-6 rounded-3xl space-y-4 max-w-xl lg:pb-[4.5rem]">
+                    <!-- hansel title -->
+                    <div class="flex flex-row py-2 rounded-3xl justify-center items-center space-x-4">
+                        <img src="./img/hglogo.png" alt="" class="max-w-[3rem]">
+                        <div class="flex flex-col">
+                            <b class="">Hansel & Gretel Bakery Cafe</b>
+                            Service Worker <br>
+                            January 2022 - May 2022
+                        </div>
+                    </div>
+                    <!-- hansel description -->
+                    <div class="text-center">
+                        Handled and accommodated customer questions regarding store policies.
+                        Accommodated requests for custom services.
+                        Maintained store facilities to ensure cleanliness.
+                    </div>
                 </div>
     
                 <!-- newsome section -->
-                <div class="flex flex-col mx-10 bg-white p-6 rounded-3xl space-y-4 max-w-xl">
+                <div class="flex flex-col mx-10 bg-gray-100 p-6 rounded-3xl space-y-4 max-w-xl pb-[4.5rem]">
                     <!-- newsome title -->
-                    <div class="flex flex-row py-2 bg-black text-white rounded-3xl justify-center items-center space-x-6">
+                    <div class="flex flex-row py-2 rounded-3xl justify-center items-center space-x-6">
                         <img src="./img/newsomelogo.png" alt="" class="max-w-[3rem]">
                         <div class="flex flex-col">
                             <b class="">Newsome High School</b>
@@ -280,17 +266,11 @@
                         </div>
                     </div>
                     <!-- newsome description -->
-                    <ul class="list-disc">
-                        <li>
-                            Engaged with lower performing students and assisted by guiding them through supplementary material.
-                        </li>
-                        <li>
-                            Assisted the teacher in creating lesson plans that would be clear for all students to follow, particularly those falling behind.
-                        </li>
-                        <li>
-                            Built interpersonal relationships with those I tutored so I could better understand their needs and learning styles.
-                        </li>
-                    </ul>
+                    <div class="text-center">
+                        Engaged with students and assisted by guiding them through supplementary material.
+                        Assisted the teacher in creating lesson plans.
+                        Built interpersonal relationships with those I tutored so I could better understand their needs and learning styles.
+                    </div>
                 </div>
             </div>
         </div>

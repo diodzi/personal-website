@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         favourite: '#81f0bd',
         cream: '#ffe6a1',
-        creamDark: '#fccb44'
+        creamDark: '#ffd663',
+        qaziBlack: '#363636'
       }
     },
   },
