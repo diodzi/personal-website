@@ -7,25 +7,28 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Dio Dziban</title>
 </head>
-<body class="selection:bg-cream selection:text-black">
+<body class="selection:bg-cream selection:text-black ">
+    <span id="home"></span>
     <!-- navbar -->
-    <nav class="relative container mx-auto p-6">
+    <nav class="sticky top-0 container mx-auto p-6">
         <div class="flex items-center justify-between bg-black rounded-full">
             <!-- Home Button -->
-            <img src="./img/party pic.png" alt="" class="rounded-full my-1 ml-1" style="width: 75px; height: 75px;">
+            <a href="#home">
+                <img src="./img/party pic.png" alt="" class="rounded-full my-1 ml-1" style="width: 75px; height: 75px;">
+            </a>
             <!-- Pages -->
             <div class="hidden md:flex space-x-20">
                 <a href="#education" class="hover:text-cream text-white hover:underline">Education</a>
                 <a href="#tools" class="hover:text-cream text-white hover:underline">Tools</a>
-                <a href="#" class="hover:text-cream text-white hover:underline">Experience</a>
+                <a href="#experience" class="hover:text-cream text-white hover:underline">Experience</a>
             </div>
             <!-- Contact Button -->
-            <a href="#education" class="p-4 bg-cream rounded-full mr-4 hover:bg-creamDark hover:underline">Contact</a>
+            <a href="#contact" class="p-4 bg-cream rounded-full mr-4 hover:bg-creamDark hover:underline">Contact</a>
         </div>
     </nav>
 
     <!-- pog section -->
-    <div class="flex flex-col container mx-auto md:flex-row md:justify-center items-center">
+    <section class="flex flex-col container mx-auto md:flex-row md:justify-center items-center">
         <!-- main image -->
         <img src="./img/skyview.png" alt="" class="md:rounded-3xl md:w-1/2">
 
@@ -42,12 +45,13 @@
                 >>>
             </p>
         </div>
-    </div>
+        <span id="education"></span>
+    </section>
 
     <!-- education section -->
-    <section id="education" class="bg-cream pb-6 selection:bg-black selection:text-cream">
+    <section class="bg-cream pb-6 selection:bg-black selection:text-cream">
         <!-- education header -->
-        <span class="text-5xl font-bold italic flex justify-center pt-6 pb-4 mt-6 lg:text-7xl">Education</span>
+        <span class="text-5xl font-bold italic flex justify-center pt-6 pb-4 mt-6 underline lg:text-7xl">Education</span>
 
         <div class="flex flex-col lg:flex-row lg:justify-center space-x-12">
             <!-- gsu section -->
@@ -75,14 +79,15 @@
             <span class="lg:text-3xl"><b>SAT:</b> 1570 / 1600</span>
             <span class="lg:text-3xl"><b>HOPE Calculated GPA:</b> 3.737 / 4.000</span>
         </div>
+        <span id="tools"></span>
     </section>
 
     <!-- tools section -->
-    <section id="tools" class="pb-12 bg-gradient-to-t from-favourite to-cream justify-center lg:flex lg:flex-row lg:space-x-48">
+    <section class="pb-12 pt-20 bg-gradient-to-t from-favourite to-cream justify-center lg:flex lg:flex-row lg:space-x-48">
 
         <div class="flex flex-col">
             <!-- tools header -->
-            <span class="text-5xl font-bold italic flex justify-center pt-6 pb-4 lg:text-7xl">Tools</span>
+            <span class="text-5xl font-bold italic flex justify-center pt-6 pb-8 underline lg:text-7xl">Tools</span>
 
             <!-- separates into three rows -->
             <div class="flex flex-col items-center space-y-6">
@@ -130,7 +135,7 @@
 
         <div class="flex flex-col">
             <!-- technologies header -->
-            <span class="text-5xl font-bold italic flex justify-center pt-12 pb-4 lg:text-7xl lg:pt-6">Technologies</span>
+            <span class="text-5xl font-bold italic flex justify-center pt-12 pb-8 underline lg:text-7xl lg:pt-6">Technologies</span>
 
             <!-- technologies section -->
             <div class="flex flex-col items-center space-y-6">
@@ -178,17 +183,18 @@
     </section>
 
     <!-- experience section -->
-    <section id="experience" class="bg-favourite pb-8">
+    <span id="experience"></span>
+    <section class="bg-favourite pt-16 pb-8">
         <!-- experience header -->
-        <span class="text-5xl font-bold italic flex justify-center pt-6 pb-8 lg:text-7xl">Experience</span>
+        <span class="text-5xl font-bold italic flex justify-center pt-6 pb-8 underline lg:text-7xl">Experience</span>
 
         <!-- splits into two columns on non-mobile -->
         <div class="flex flex-col justify-center space-y-6 lg:flex-row lg:space-y-0">
             <div class="flex flex-col items-center space-y-6">
                 <!-- hansel section -->
-                <div class="flex flex-col mx-10 bg-white p-6 rounded-3xl space-y-4 max-w-xl">
+                <div class="flex flex-col mx-10 bg-white p-6 rounded-3xl space-y-4 max-w-xl lg:pb-24">
                     <!-- hansel title -->
-                    <div class="flex flex-row py-2 bg-black text-white rounded-full justify-center items-center space-x-4">
+                    <div class="flex flex-row py-2 bg-black text-white rounded-3xl justify-center items-center space-x-4">
                         <img src="./img/hglogo.png" alt="" class="max-w-[3rem]">
                         <div class="flex flex-col">
                             <b class="">Hansel & Gretel Bakery Cafe</b>
@@ -211,9 +217,9 @@
                 </div>
     
                 <!-- ohacksio section -->
-                <div class="flex flex-col mx-10 bg-white p-6 rounded-3xl space-y-4 max-w-xl">
+                <div class="flex flex-col mx-10 bg-white p-6 rounded-3xl space-y-4 max-w-xl lg:pb-[4.6rem]">
                     <!-- ohacksio title -->
-                    <div class="flex flex-row py-2 bg-black text-white rounded-full justify-center items-center space-x-4">
+                    <div class="flex flex-row py-2 bg-black text-white rounded-3xl justify-center items-center space-x-4">
                         <img src="./img/ohackslogo.png" alt="" class="max-w-[3rem]">
                         <div class="flex flex-col">
                             <b class="">OHacksIO Hackathon</b>
@@ -240,12 +246,12 @@
                 <!-- ikmia section -->
                 <div class="flex flex-col mx-10 bg-white p-6 rounded-3xl space-y-4 max-w-xl">
                     <!-- ikmia title -->
-                    <div class="flex flex-row py-2 bg-black text-white rounded-full justify-center items-center space-x-2">
+                    <div class="flex flex-row py-2 bg-black text-white rounded-3xl justify-center items-center space-x-2">
                         <img src="./img/ikmialogo.jpg" alt="" class="max-w-[3rem] rounded-full">
                         <div class="flex flex-col">
                             <b class="">IKMIA Youth</b>
                             Treasurer, Advisor to President <br>
-                            September 2021
+                            May 2022 - Present
                         </div>
                     </div>
                     <!-- ikmia description -->
@@ -265,12 +271,12 @@
                 <!-- newsome section -->
                 <div class="flex flex-col mx-10 bg-white p-6 rounded-3xl space-y-4 max-w-xl">
                     <!-- newsome title -->
-                    <div class="flex flex-row py-2 bg-black text-white rounded-full justify-center items-center space-x-6">
+                    <div class="flex flex-row py-2 bg-black text-white rounded-3xl justify-center items-center space-x-6">
                         <img src="./img/newsomelogo.png" alt="" class="max-w-[3rem]">
                         <div class="flex flex-col">
                             <b class="">Newsome High School</b>
                             Teaching Assistant, Tutor <br>
-                            September 2021
+                            Aug 2022 - Nov 2022
                         </div>
                     </div>
                     <!-- newsome description -->
@@ -285,6 +291,28 @@
                             Built interpersonal relationships with those I tutored so I could better understand their needs and learning styles.
                         </li>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-black text-white py-6">
+        <div class="flex flex-col items-center text-xs">
+            <span class="font-bold">I built this website myself with 💜, HTML, JavaScript, and TailwindCSS.</span>
+            <span>Like what you see? Contact me!</span>
+
+            <div class="flex flex-col mt-4 space-y-2 items-start justify-start lg:flex-row lg:space-y-0 lg:space-x-4">
+                <div class="flex flex-row items-center space-x-2">
+                    <img src="./img/emaillogo.png" alt="" class="max-w-[3rem] rounded-full">
+                    <span>diodzi@outlook.com</span>
+                </div>
+                <div class="flex flex-row items-center space-x-2">
+                    <img src="./img/phonelogo.png" alt="" class="max-w-[3rem] rounded-full">
+                    <span>+1(857)-364-1983</span>
+                </div>
+                <div class="flex flex-row items-center space-x-2">
+                    <img src="./img/instalogo.png" alt="" class="max-w-[3rem]">
+                    <span>@dio.k1</span>
                 </div>
             </div>
         </div>
